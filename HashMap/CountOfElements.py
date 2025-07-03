@@ -5,8 +5,13 @@ for i in a:
         dici[i]=1
     else:
         dici[i]+=1
-print(dici) 
+for i in dici:
+    print(i,"-->",dici[i])
 
 '''
-Output:-{1: 4, 5: 2, 8: 2, 0: 1}
+Output:-
+1 --> 4
+5 --> 2
+8 --> 2
+0 --> 1
 '''
