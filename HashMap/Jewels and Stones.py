@@ -31,5 +31,9 @@ class Solution:
             if c in dic:
                 m=m+dic[c]
         return m
+obj=Solution()
+j = "aA"
+s = "aAAbbbb"
+print(obj.numJewelsInStones(j,a))
         
     
