@@ -1,4 +1,6 @@
- x=list(map(int,input().split()))
+###Bubble Sort
+
+x=list(map(int,input().split()))
  for i in range(len(x)):
     for j in range(i+1,len(x)):
         if x[i]>x[j]:
