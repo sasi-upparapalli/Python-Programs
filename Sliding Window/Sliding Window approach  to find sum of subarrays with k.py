@@ -10,3 +10,9 @@ for i in range(a):
         l+=1
     if (i-l+1)==k:
         print(temp)
+
+
+# Output
+# 5
+# 6
+# 6
