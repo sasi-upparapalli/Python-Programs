@@ -25,3 +25,19 @@ def maximum69Number (num):
       return int(z.replace('6','9',1))
 num=9669
 print(maximum69Number(num))
+
+
+n = 9669
+a=n
+pos=0
+z=-1
+r=0
+while n!=0:
+    r=n%10
+    if r==6:
+        z=pos
+    n=n//10
+    pos+=1
+if z!=-1:
+    a+=(10**(z)*3)
+print(a)
